@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-header {
+.main-header {
   background-color: orange;
 }
 
@@ -20,4 +20,18 @@ h2 {
 h3 {
   font-size: 20px;
   color: #48525c;
+}
+
+.primary-content {
+  text-align: center;
+}
+
+.secondary-content {
+  border-top: solid lightgrey 2px;
+}
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px orange solid;
 }
