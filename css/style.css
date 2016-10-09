@@ -1,22 +1,9 @@
 
+/* type selectors */
+
 body {
   color: #878787;
   margin: 0;
-}
-
-.main-header {
-  background-color: orange;
-}
-
-.title {
-  color: white;
-  font-size: 26px;
-}
-
-ol li {
-  background-color: tomato;
-  color: white;
-  margin-bottom: 5px;
 }
 
 h1{
@@ -33,6 +20,25 @@ h3 {
   color: #48525c;
 }
 
+/* ID Selectors */
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px orange solid;
+}
+
+/* Class selectors */
+
+.main-header {
+  background-color: orange;
+}
+
+.title {
+  color: white;
+  font-size: 26px;
+}
+
 .primary-content {
   text-align: center;
 }
@@ -41,8 +47,25 @@ h3 {
   border-top: solid lightgrey 2px;
 }
 
-#main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px orange solid;
+/* PSeudo-Class selectors */
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color:lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+a:focus {
+  color:white;
+  background-color: orange;
 }
