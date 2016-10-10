@@ -45,11 +45,6 @@ h3 {
   font-size: 1.625em;/* 26px divided by 16x = 1.625em */
 }
 
-.primary-content,
-.secondary-content {
-  width: 60%;
-}
-
 .primary-content, .main-header {
   text-align: center;
 }
@@ -80,4 +75,18 @@ a:active {
 a:focus {
   color:white;
   background-color: orange;
+}
+
+/* Layout Styles */
+
+.primary-content,
+.secondary-content {
+  width: 60%;
+}
+
+.wildlife {
+  color: white;
+  background-color: #434a52;
+  padding: 18% 24%;
+
 }
