@@ -1,6 +1,10 @@
 
 /* type selectors */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #878787;
   margin: 0;
@@ -29,6 +33,12 @@ h3 {
   line-height: 1.2;
   margin-bottom: 1.7em;
 }
+
+img {
+  max-width: 100%;
+  bottom-margin: 20px;
+}
+
  /*
 li {
   display: inline-block;
@@ -51,6 +61,8 @@ li {
 
 .main-header {
   background-color: #ffa949;
+  padding-top: 170px;
+  height: 850px;
 }
 
 .secondary-content {
@@ -78,6 +90,10 @@ li {
 
 .t-border {
   border-top: solid lightgrey 2px;
+}
+
+.arrow {
+  width: 50px;
 }
 
 /* PSeudo-Class selectors */
@@ -108,8 +124,11 @@ a:focus {
 
 .primary-content,
 .secondary-content {
-  width: 60%;
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: auto;
+  max-width: 900px;
 }
 
 .wildlife {
