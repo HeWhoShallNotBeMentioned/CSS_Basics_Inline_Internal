@@ -36,7 +36,20 @@ h3 {
 
 img {
   max-width: 100%;
-  bottom-margin: 20px;
+  margin-bottom: 20px;
+}
+
+ul,ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
  /*
@@ -55,6 +68,7 @@ li {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 10px #ffa949 solid;
+  text-align: center;
 }
 
 /* Class selectors */
@@ -71,7 +85,7 @@ li {
 
 .secondary-content {
   padding: 80px 0 70px 0;
-  border-bottom: 2px solid #dfe2e6;
+
 }
 
 .callout {
@@ -147,4 +161,24 @@ a:focus {
   background-position: center;
 }
 
+/* Floated Columns */
+
+.resorts,
+.tips {
+  width: 46.5%;
+}
+
+.tips {
+  float: right;
+}
+
+.resorts {
+  float: left;
+}
+
+/* Float Clearfix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
