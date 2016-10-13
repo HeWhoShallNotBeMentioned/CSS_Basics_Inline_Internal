@@ -88,14 +88,13 @@ li {
 /* Class selectors */
 
 .main-header {
-  background-color: #ffa949;
   padding-top: 170px;
   height: 850px;
-  background-image: url('../img/mountains.jpg');
+  background: linear-gradient(#ffa949, transparent 50%),
+    linear-gradient(to top, #fff, transparent 50%),
+    #ffa949 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: radial-gradient(circle,#ffa949 15%, firebrick 45%, dodgerblue 85%);
+
 }
 
 .secondary-content {
